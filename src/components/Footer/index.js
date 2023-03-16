@@ -1,13 +1,5 @@
-import React, { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import "./Footer.css"
 
-import App from "./App";
-
-const rootElement = document.querySelector("#root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+export default function Footer(){
+    return <p>Footer</p>
+}
